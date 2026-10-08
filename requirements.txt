@@ -1,0 +1,8 @@
+torch>=2.7        # RTX 5080 (Blackwell) needs a CUDA 12.8+ build
+transformers>=4.51  # Qwen3-Embedding needs >=4.51 (paper's 4.21.0 is too old for it)
+scikit-learn
+pandas
+openpyxl
+sentencepiece
+# optional, for BanglaBERT's recommended normalizer:
+# git+https://github.com/csebuetnlp/normalizer

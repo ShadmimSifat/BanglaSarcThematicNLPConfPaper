@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+.vscode/
+
+# Virtual environment
+sarc_env/
+venv/
+.env/
+
+# Training outputs
+outputs/
+*.pt
+*.pth
+*.ckpt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
